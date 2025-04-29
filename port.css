@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: blanchedalmond;
+}
+
+/* .nab{
+   
+} */
+
+.port{
+    display: flex;
+    background-color: azure;
+}
+ul ,li,h2{
+   
+ text-decoration:none;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: aqua;
+}
+.section{
+    display: flex;
+}
+.navbar{
+    background-color: aqua;
+}

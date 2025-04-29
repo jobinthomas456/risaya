@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main div{
+            display: grid;
+            justify-content: space-around;
+            align-items: center;
+            border: solid black;
+            background-color: aqua;
+            
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: 10fr 60fr 10fr;
+            grid-template-areas: "h h h"
+            "a1 a2 a3"
+            "f f f";
+        }
+    
+        #header{
+            grid-area: h;
+            background-color: blueviolet;
+        }
+        #footer{
+            grid-area: f;
+            background-color: brown;
+        }
+        #article1{
+            grid-area: a1;
+            background-color: blanchedalmond;
+        }
+        #article2{
+            grid-area: a2;
+            background-color: blanchedalmond;
+        } #article3{
+            grid-area: a3;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <hr>
+        <div id="header"><h1>Jobin thomas</h1></div>
+        <div id="article1"><img src="" alt="The Image is not detected"></div>
+        <div id="article2" ><h2>profile</h2>
+     <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt beatae officia, minus ex est reprehenderit consectetur. Illum aliquid accusantium a modi repellat hic voluptatum temporibus deleniti dicta fugit, accusamus ea.</p>
+        <h3>Profesional experience</h3>
+        <hr>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus sapiente aliquid autem beatae suscipit corporis, nihil rem natus facere ipsum animi nostrum minima possimus officiis. Culpa, reprehenderit! Libero, sit.
+        </div>
+        <div id="article3"><h3>Skills</h3>
+        <ul>
+            <li>.........</li>
+            <li>.......</li>
+            <li>.......</li>
+            <li>.......</li>
+        </ul></div>
+        <div id="footer"><b>Email:   jo.....@gmail.com , 
+           
+        </b>
+        
+<p>phone :78......89 </p>           
+        </div>
+    </div>
+
+    <hr>
+    
+</body>
+</html>
